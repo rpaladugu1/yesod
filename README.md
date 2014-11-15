@@ -42,4 +42,4 @@ Step 5: Now run yesod devel
 
 > sudo docker run --rm -t -i --link postgresql:postgres  --volumes-from postgresql -p 3000:3000 -v /vagrant/yesodprojects/project1:/var/yesodprojects/project1 rpaladugu1/yesod-postgresql /bin/bash -c "cd project1   && yesod devel"
 
-* Note: you may have to change your local directory paths.
+* Note: You may have to change your local directory paths in some places depending on your setup.
